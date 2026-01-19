@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+First Name: <input id="fname" readonly><br><br>
+Last Name: <input id="lname" readonly><br><br>
+
+<button onclick="fill()">Enter Name</button>
+
+<script>
+function fill() {
+    document.getElementById("fname").value = prompt("Enter First Name:");
+    document.getElementById("lname").value = prompt("Enter Last Name:");
+}
+</script>
+
+</body>
+</html>
